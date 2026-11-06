@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Ruthveek Gourishetty — Front-End Developer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="photo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- 3D Office Interactive Dialog & Skip Button -->
+    <div id="dlg">
+        <div class="hd"><b id="who"></b><span id="role"></span></div>
+        <p id="txt"></p>
+        <div id="btns"></div>
+    </div>
+    <button id="skip">Skip intro →</button>
+
+    <!-- Transparent Portfolio Overlay Container -->
+    <main id="site">
+        <header>
+            <div class="wrap">
+                <nav>
+                    <a class="logo serif" href="#top">R <i>.</i>G</a>
+                    <div class="links">
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#work">Work</a>
+                        <a href="#education">Education</a>
+                        <a href="#contact">Contact</a>
+                        <button class="tb" onclick="location.reload()" title="Replay 3D Office Walkthrough">↺ Replay</button>
+                        <button class="tb" id="tg">Light / Dark</button>
+                        <button class="tb mb" id="mb" aria-label="Open menu" aria-expanded="false" aria-controls="mm">Menu</button>
+                    </div>
+                </nav>
+                <div class="mm" id="mm">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#work">Work</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                    <button class="tb" onclick="location.reload()" style="text-align:left;border:0;padding:12px 0;width:100%">↺ Replay Office</button>
+                </div>
+            </div>
+        </header>
+
+        <div id="top">
+            <div class="wrap hero">
+                <div class="top">
+                    <span>Available for full-time &amp; contract</span>
+                    <span id="clk"></span>
+                    <span>Bengaluru / Remote</span>
+                </div>
+
+                <h1 class="serif">
+                    <span class="ln"><span>Front-end</span></span>
+                    <span class="ln"><span><em>developer</em> &amp; UI</span></span>
+                    <span class="ln"><span>craftsman.</span></span>
+                </h1>
+
+                <div class="hb">
+                    <p>I’m <b>Ruthveek Gourishetty</b>, a junior front-end developer at SecurXperts Technologies. I build
+                        fast, responsive interfaces with <b>React, Next.js and Tailwind</b>, from Figma to production.</p>
+                    <div class="row2">
+                        <a class="btn" href="#work">View Work</a>
+                        <a class="btn o" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+
+                <div class="mq">
+                    <div class="tr serif" id="tr"></div>
+                </div>
+            </div>
+
+            <section id="about">
+                <div class="wrap sh">
+                    <div class="lab"><i>01</i> — About</div>
+                    <div>
+                        <div class="about">
+                            <div>
+                                <p class="big serif rv">I turn designs into interfaces that are clean, responsive and easy
+                                    to maintain. I care about reusable components, smooth interaction and details that make
+                                    a product feel finished.</p>
+                                <p class="mut rv">Over the past year I’ve built dashboards, client websites and small
+                                    products, integrating REST APIs, testing with Postman and shipping on Vercel.</p>
+                                <div class="skills rv" id="sk"></div>
+                            </div>
+                            <figure class="pf rv">
+                                <div class="ph">
+                                    <img src="photo.jpg" alt="Portrait of Ruthveek Gourishetty, front-end developer"
+                                        width="768" height="1024" loading="eager" decoding="async"
+                                        onerror="this.closest('.pf').classList.add('noimg')">
+                                    <div class="ini serif" aria-hidden="true">RG</div>
+                                </div>
+                                <figcaption>
+                                    <div><b>Ruthveek Gourishetty</b><br>Front-End Developer</div>
+                                    <span>Available for work</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="stats rv">
+                            <div><b class="serif" data-n="14">0</b><small>Projects built</small></div>
+                            <div><b class="serif" data-n="12">0</b><small>Tools &amp; technologies</small></div>
+                            <div><b class="serif" data-n="1">0</b><small>Year in industry</small></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <div class="wrap sh">
+                    <div class="lab"><i>02</i> — Experience</div>
+                    <div>
+                        <h2 class="serif rv">Where I’ve <em>worked.</em></h2>
+                        <div class="job rv">
+                            <div>
+                                <h3 class="serif">Junior Front-End Developer</h3>
+                                <small>SecurXperts Technologies Pvt Ltd</small>
+                                <small>July 2025 — Aug 2026</small>
+                            </div>
+                            <ul>
+                                <li>Developed responsive interfaces with React.js, Next.js, JavaScript, HTML5, CSS3,
+                                    Tailwind CSS and Bootstrap.</li>
+                                <li>Built reusable UI components to improve scalability and maintainability.</li>
+                                <li>Integrated REST APIs and tested endpoints with Postman.</li>
+                                <li>Converted Figma designs into responsive user interfaces.</li>
+                                <li>Used Git/GitHub and Vercel for version control and deployment.</li>
+                                <li>Optimized pages for performance, responsiveness and cross-browser compatibility.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work">
+                <div class="wrap">
+                    <div class="sh">
+                        <div class="lab"><i>03</i> — Work</div>
+                        <h2 class="serif rv">Professional <em>Projects.</em></h2>
+                    </div>
+                    <div id="pro"></div>
+                    <h3 class="serif sub rv">Personal Work</h3>
+                    <div id="per"></div>
+                </div>
+            </section>
+
+            <section id="education">
+                <div class="wrap sh">
+                    <div class="lab"><i>04</i> — Education</div>
+                    <div>
+                        <h2 class="serif rv">Academic <em>background.</em></h2>
+                        <div class="edu rv">
+                            <div>
+                                <h3 class="serif">B.Tech, Computer Science &amp; Engineering</h3>
+                                <small>Parul University</small>
+                            </div>
+                            <span>2021 — 2025</span>
+                        </div>
+                        <div class="edu rv">
+                            <div>
+                                <h3 class="serif">Intermediate (MPC)</h3>
+                                <small>Ignite Intermediate College</small>
+                            </div>
+                            <span>2019 — 2021</span>
+                        </div>
+                        <div class="edu rv">
+                            <div>
+                                <h3 class="serif">SSC</h3>
+                                <small>Bhashayam Blooms</small>
+                            </div>
+                            <span>2019</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" style="border:0">
+                <div class="wrap">
+                    <div class="lab rv"><i>05</i> — Contact</div>
+                    <h2 class="serif rv" style="margin-top:14px">Have a project in mind? <em>Let’s talk.</em></h2>
+                    <a class="mail serif rv" href="mailto:ruthveekgourishetty@gmail.com">ruthveekgourishetty@gmail.com</a>
+                    <div class="row2 rv">
+                        <a class="btn" href="https://www.linkedin.com/in/ruthveek-gourishetty-435154264"
+                            target="_blank" rel="noopener">LinkedIn</a>
+                        <a class="btn o" href="https://github.com/Grshetty" target="_blank" rel="noopener">GitHub</a>
+                        <a class="btn o" href="tel:+917981227221">+91 79812 27221</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="wrap">
+                    <span>© 2026 Ruthveek Gourishetty</span>
+                    <span>Designed by Ruthveek Gourishetty</span>
+                </div>
+            </footer>
+        </div>
+
+        <button id="up" type="button" aria-label="Back to top">↑</button>
+        <div id="pv">
+            <div class="th serif" id="pt"></div>
+            <div class="bd">
+                <p id="pd"></p>
+                <div class="t" id="pg"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Ruthveek Gourishetty — Front-End Developer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="photo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- 3D Office Interactive Dialog & Skip Button -->
+    <div id="dlg">
+        <div class="hd"><b id="who"></b><span id="role"></span></div>
+        <p id="txt"></p>
+        <div id="btns"></div>
+    </div>
+    <button id="skip">Skip intro →</button>
+
+    <!-- Transparent Portfolio Overlay Container -->
+    <main id="site">
+        <header>
+            <div class="wrap">
+                <nav>
+                    <a class="logo serif" href="#top">R <i>.</i>G</a>
+                    <div class="links">
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#work">Work</a>
+                        <a href="#education">Education</a>
+                        <a href="#contact">Contact</a>
+                        <button class="tb" onclick="location.reload()" title="Replay 3D Office Walkthrough">↺ Replay</button>
+                        <button class="tb" id="tg">Light / Dark</button>
+                        <button class="tb mb" id="mb" aria-label="Open menu" aria-expanded="false" aria-controls="mm">Menu</button>
+                    </div>
+                </nav>
+                <div class="mm" id="mm">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#work">Work</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                    <button class="tb" onclick="location.reload()" style="text-align:left;border:0;padding:12px 0;width:100%">↺ Replay Office</button>
+                </div>
+            </div>
+        </header>
+
+        <div id="top">
+            <div class="wrap hero">
+                <div class="top">
+                    <span>Available for full-time &amp; contract</span>
+                    <span id="clk"></span>
+                    <span>Bengaluru / Remote</span>
+                </div>
+
+                <h1 class="serif">
+                    <span class="ln"><span>Front-end</span></span>
+                    <span class="ln"><span><em>developer</em> &amp; UI</span></span>
+                    <span class="ln"><span>craftsman.</span></span>
+                </h1>
+
+                <div class="hb">
+                    <p>I’m <b>Ruthveek Gourishetty</b>, a junior front-end developer at SecurXperts Technologies. I build
+                        fast, responsive interfaces with <b>React, Next.js and Tailwind</b>, from Figma to production.</p>
+                    <div class="row2">
+                        <a class="btn" href="#work">View Work</a>
+                        <a class="btn o" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+
+                <div class="mq">
+                    <div class="tr serif" id="tr"></div>
+                </div>
+            </div>
+
+            <section id="about">
+                <div class="wrap sh">
+                    <div class="lab"><i>01</i> — About</div>
+                    <div>
+                        <div class="about">
+                            <div>
+                                <p class="big serif rv">I turn designs into interfaces that are clean, responsive and easy
+                                    to maintain. I care about reusable components, smooth interaction and details that make
+                                    a product feel finished.</p>
+                                <p class="mut rv">Over the past year I’ve built dashboards, client websites and small
+                                    products, integrating REST APIs, testing with Postman and shipping on Vercel.</p>
+                                <div class="skills rv" id="sk"></div>
+                            </div>
+                            <figure class="pf rv">
+                                <div class="ph">
+                                    <img src="photo.jpg" alt="Portrait of Ruthveek Gourishetty, front-end developer"
+                                        width="768" height="1024" loading="eager" decoding="async"
+                                        onerror="this.closest('.pf').classList.add('noimg')">
+                                    <div class="ini serif" aria-hidden="true">RG</div>
+                                </div>
+                                <figcaption>
+                                    <div><b>Ruthveek Gourishetty</b><br>Front-End Developer</div>
+                                    <span>Available for work</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="stats rv">
+                            <div><b class="serif" data-n="14">0</b><small>Projects built</small></div>
+                            <div><b class="serif" data-n="12">0</b><small>Tools &amp; technologies</small></div>
+                            <div><b class="serif" data-n="1">0</b><small>Year in industry</small></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <div class="wrap sh">
+                    <div class="lab"><i>02</i> — Experience</div>
+                    <div>
+                        <h2 class="serif rv">Where I’ve <em>worked.</em></h2>
+                        <div class="job rv">
+                            <div>
+                                <h3 class="serif">Junior Front-End Developer</h3>
+                                <small>SecurXperts Technologies Pvt Ltd</small>
+                                <small>July 2025 — Aug 2026</small>
+                            </div>
+                            <ul>
+                                <li>Developed responsive interfaces with React.js, Next.js, JavaScript, HTML5, CSS3,
+                                    Tailwind CSS and Bootstrap.</li>
+                                <li>Built reusable UI components to improve scalability and maintainability.</li>
+                                <li>Integrated REST APIs and tested endpoints with Postman.</li>
+                                <li>Converted Figma designs into responsive user interfaces.</li>
+                                <li>Used Git/GitHub and Vercel for version control and deployment.</li>
+                                <li>Optimized pages for performance, responsiveness and cross-browser compatibility.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work">
+                <div class="wrap">
+                    <div class="sh">
+                        <div class="lab"><i>03</i> — Work</div>
+                        <h2 class="serif rv">Professional <em>Projects.</em></h2>
+                    </div>
+                    <div id="pro"></div>
+                    <h3 class="serif sub rv">Personal Work</h3>
+                    <div id="per"></div>
+                </div>
+            </section>
+
+            <section id="education">
+                <div class="wrap sh">
+                    <div class="lab"><i>04</i> — Education</div>
+                    <div>
+                        <h2 class="serif rv">Academic <em>background.</em></h2>
+                        <div class="edu rv">
+                            <div>
+                                <h3 class="serif">B.Tech, Computer Science &amp; Engineering</h3>
+                                <small>Parul University</small>
+                            </div>
+                            <span>2021 — 2025</span>
+                        </div>
+                        <div class="edu rv">
+                            <div>
+                                <h3 class="serif">Intermediate (MPC)</h3>
+                                <small>Ignite Intermediate College</small>
+                            </div>
+                            <span>2019 — 2021</span>
+                        </div>
+                        <div class="edu rv">
+                            <div>
+                                <h3 class="serif">SSC</h3>
+                                <small>Bhashayam Blooms</small>
+                            </div>
+                            <span>2019</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" style="border:0">
+                <div class="wrap">
+                    <div class="lab rv"><i>05</i> — Contact</div>
+                    <h2 class="serif rv" style="margin-top:14px">Have a project in mind? <em>Let’s talk.</em></h2>
+                    <a class="mail serif rv" href="mailto:ruthveekgourishetty@gmail.com">ruthveekgourishetty@gmail.com</a>
+                    <div class="row2 rv">
+                        <a class="btn" href="https://www.linkedin.com/in/ruthveek-gourishetty-435154264"
+                            target="_blank" rel="noopener">LinkedIn</a>
+                        <a class="btn o" href="https://github.com/Grshetty" target="_blank" rel="noopener">GitHub</a>
+                        <a class="btn o" href="tel:+917981227221">+91 79812 27221</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="wrap">
+                    <span>© 2026 Ruthveek Gourishetty</span>
+                    <span>Designed by Ruthveek Gourishetty</span>
+                </div>
+            </footer>
+        </div>
+
+        <button id="up" type="button" aria-label="Back to top">↑</button>
+        <div id="pv">
+            <div class="th serif" id="pt"></div>
+            <div class="bd">
+                <p id="pd"></p>
+                <div class="t" id="pg"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
